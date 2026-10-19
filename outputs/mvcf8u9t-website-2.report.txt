@@ -1,0 +1,6 @@
+root: . | package.json: false | html files: 1 | py: - | php: false
+── strategy: static
+esbuild bundle skipped: script-0.js Build failed with 1 error:
+asset not inlined: /vite.svg
+static: 1 page(s) inlined
+DONE via "static" → /home/runner/work/Forge_html/Forge_html/outputs/mvcf8u9t-website-2.html (0.40 MB)

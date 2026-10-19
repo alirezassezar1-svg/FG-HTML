@@ -1,0 +1,7 @@
+{
+  "name": "AnyHTML — Any Project to Single Offline HTML",
+  "description": "Convert any project, ZIP archive, website, markdown, or file into a single self-contained, offline-ready HTML file optimized for iPhone and desktop.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

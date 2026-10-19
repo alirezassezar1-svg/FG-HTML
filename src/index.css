@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0d12;
+  --panel: #12151c;
+  --panel-hover: #181d27;
+  --line: #232836;
+  --fg: #e6e9f0;
+  --mut: #8b93a7;
+  --acc: #4f8cff;
+  --acc-hover: #3d7ae8;
+  --ok: #3ecf8e;
+  --bad: #ff6b6b;
+}
+
+[data-theme="light"] {
+  --bg: #f6f7fb;
+  --panel: #ffffff;
+  --panel-hover: #f1f3f9;
+  --line: #dfe3ee;
+  --fg: #161a24;
+  --mut: #667089;
+  --acc: #1f5fe0;
+  --acc-hover: #154cbd;
+  --ok: #118a5a;
+  --bad: #c93636;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Vazirmatn, Tahoma, sans-serif;
+  min-height: 100dvh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mut);
+}
+
+@keyframes progressPulse {
+  0% {
+    margin-inline-start: -30%;
+  }
+  100% {
+    margin-inline-start: 100%;
+  }
+}
+
+.animate-progress-slide {
+  animation: progressPulse 1.4s infinite ease-in-out;
+}

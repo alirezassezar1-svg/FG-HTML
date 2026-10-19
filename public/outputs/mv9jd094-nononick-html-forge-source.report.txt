@@ -1,0 +1,5 @@
+root: . | package.json: false | html files: 1 | py: - | php: false
+── strategy: static
+esbuild bundle skipped: app.js [anyhtml-resolve] "onResolve" filter is not a valid Go regular expression: "^\\/(?!\\/)"
+static: 1 page(s) inlined
+DONE via "static" → /home/runner/work/Forge_html/Forge_html/outputs/mv9jd094-nononick-html-forge-source.html (0.05 MB)

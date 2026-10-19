@@ -1,0 +1,4 @@
+root: my_website-main | package.json: false | html files: 1 | py: - | php: false
+── strategy: static
+static: 1 page(s) inlined
+DONE via "static" → /home/runner/work/Forge_html/Forge_html/outputs/mvb0r3ts-my-website-main.html (0.81 MB)

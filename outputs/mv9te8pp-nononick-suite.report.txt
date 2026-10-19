@@ -1,0 +1,4 @@
+root: . | package.json: false | html files: 9 | py: - | php: false
+── strategy: static
+static: 1 page(s) inlined
+DONE via "static" → /home/runner/work/Forge_html/Forge_html/outputs/mv9te8pp-nononick-suite.html (1.00 MB)
